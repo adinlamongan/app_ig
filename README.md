@@ -59,6 +59,19 @@ In order to ensure that the Laravel community is welcoming to all, please review
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
+## Getting started
+- Clone project git clone https://github.com/adinlamongan/app_ig.git
+- Go to the folder cd app_ig
+- Install composer composer install
+- Install npm package npm install
+- Copy and edit .env file from .env.example cp .env.example .env
+- Generate project key php artisan key:generate
+- restore db.sql (mysql)
+- In the .env file, change database information DB_DATABASE=test
+
+Create symbolic link for storage php artisan storage:link
+Run project php artisan serve
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
